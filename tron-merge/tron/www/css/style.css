@@ -1,10 +1,38 @@
 html {
 	height: 100%;
+	max-width: 800px;
+	margin: auto;
+}
+
+@font-face {
+	font-family: 'KarmaticArcade';
+	src: url('./font/ka1.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'ArcadeClassic';
+	src: url('./font/arcadeclassic.ttf') format('truetype');
 }
 
 body {
+	height: 100%;
+	background-image:url('../img/stars.gif');
+    background-size:100%;
+    background-repeat: repeat;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+h1, input {
+    font-family: "arcadeclassic";
+}
+
+.screen {
 	/*border: solid yellow 5px;*/
 	height: 100%;
+	width:50%;
+	min-width: 420px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -46,4 +74,11 @@ body {
 
 h1 {
 	font-size: 500%;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="screen"] {
+    width: 100%;
+  }
 }
