@@ -1,0 +1,49 @@
+html {
+	height: 100%;
+}
+
+body {
+	/*border: solid yellow 5px;*/
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	color: white;
+	background-color: black;
+}
+
+.accueil {
+	/*border: solid green 5px;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.connexion_menu {
+	/* border: solid green 5px;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#pseudo, .button {
+	margin: 20px;
+	padding: 15px;
+	border: black;
+	border-radius: 5px;
+
+	text-align: center;
+	font-size: 16px;
+}
+
+.button {
+	background-color: #0844db; /* Green */
+	color: white;
+}
+
+h1 {
+	font-size: 500%;
+}

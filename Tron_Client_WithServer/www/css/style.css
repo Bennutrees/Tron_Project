@@ -63,6 +63,7 @@ h1 {
     padding:3px;
     padding-right: 2px;
     border:1px solid black;
+	border-radius: 6px 6px 0px 0px;
     cursor:pointer;
 }
 .non_active {

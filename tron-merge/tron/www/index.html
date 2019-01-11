@@ -32,7 +32,7 @@
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <title>Tron</title>
     </head>
     <body>
@@ -50,10 +50,14 @@
 
             <footer>
                 <hr/>
-                <input placeholder="Nickname" type="text" id="pseudo"><br/><br/>
-                <input type="button" id="send" value="Connexion">
-                <input type="button" id="highscore" value="Highscore"><br/>
-                <input type="button" id="game" value="Game" disabled>
+                <div class="connexion_menu">
+                    <input placeholder="Nickname" type="text" id="pseudo">
+                    <input type="button" class="button" id="send" value="Connexion">
+                </div>
+                <div class="user_options">
+                    <input type="button" class="button" id="highscore" value="Highscore">
+                    <input type="button" class="button" id="game" value="New Game" disabled>
+                </div>
             </footer>
 
         <link rel="stylesheet" type="text/css" href="css/jquery.loading.css">
