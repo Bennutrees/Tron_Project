@@ -1,0 +1,27 @@
+<html>
+    <head>
+      <title>Tron</title>
+    </head>
+    <body>
+		<div>
+			<input placeholder="Nickname" type="text" id="pseudo">
+            <input type="button" id="send" value="Connexion">
+		</div>
+		<br/>
+        <div id="battlearea">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                 width="400px" height="400px" id="svg">
+                <!--<rect x="0" y="0" width="400" height="400" fill="white" stroke="black" stroke-width="15" id="area"/>
+				<rect x="10" y="10" width="10" height="10" fill="skyblue" stroke="royalblue" stroke-width="3" id="player1"/>
+				<rect x="10" y="380" width="10" height="10" fill="orangered" stroke="darkred" stroke-width="3" id="player2"/>
+				<rect x="380" y="380" width="10" height="10" fill="limegreen" stroke="green" stroke-width="3" id="player3"/>
+				<rect x="380" y="10" width="10" height="10" fill="pink" stroke="deeppink" stroke-width="3" id="player4"/>-->
+            </svg>
+        </div>
+		<link href="jquery.loading.css" rel="stylesheet">
+		<script type="text/javascript" src="socket.io.js"></script>
+		<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="jquery.loading.min.js"></script>
+        <script type="text/javascript" src="tron.js"></script>
+    </body>
+</html>
