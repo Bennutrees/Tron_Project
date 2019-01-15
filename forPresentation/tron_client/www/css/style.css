@@ -1,0 +1,88 @@
+html {
+	height: auto;
+	max-width: 800px;
+	margin: auto;
+}
+
+@font-face {
+	font-family: 'KarmaticArcade';
+	src: url('./font/ka1.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'ArcadeClassic';
+	src: url('./font/arcadeclassic.ttf') format('truetype');
+}
+
+body {
+	height: 100%;
+	background-image:url('../img/stars.gif');
+    background-size:100%;
+    background-repeat: repeat;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+h1, input, li{
+    font-family: "arcadeclassic";
+}
+
+.screen {
+	/*border: solid yellow 5px;*/
+	height: 100%;
+	width:50%;
+	min-width: 420px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	color: white;
+	background-color: black;
+}
+
+.accueil {
+	/*border: solid green 5px;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.connexion_menu {
+	/* border: solid green 5px;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#pseudo, .button {
+	margin: 20px;
+	padding: 15px;
+	border: black;
+	border-radius: 5px;
+
+	text-align: center;
+	font-size: 16px;
+}
+
+.button {
+	background-color: #0844db; /* Green */
+	color: white;
+}
+
+h1 {
+	font-size: 500%;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="screen"] {
+    width: 100%;
+  }
+}
+
+ul {
+	list-style-type: none;
+  }
